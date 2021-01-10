@@ -31,7 +31,7 @@
 
 package org.jacop.examples;
 
-import org.jacop.fz.Fz2jacop;
+//import org.jacop.fz.Fz2jacop;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -67,7 +67,7 @@ public class RunExample {
 
         if (args[args.length - 1].endsWith(".fzn")) {
 
-            Fz2jacop.main(args);
+            //Fz2jacop.main(args);
             return;
 
         } else
